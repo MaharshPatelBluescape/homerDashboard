@@ -261,11 +261,22 @@ services:
         logo: "https://github.com/NX211/homer-icons/raw/master/png/argocd.png"
         url: "https://argocd.us.prod.bluescape.io/"
         target: "_blank" # optional html a tag target attribute
+      - name: "CData"
+        type: Ping
+        logo: "https://www.cdata.com/ui/img/logo.svg"
+        url: "https://cdata.b-us.prod.bluescape.io/"
+        target: "_blank" # optional html a tag target attribute
       - name: "Grafana"
         type: Ping
         logo: "https://github.com/NX211/homer-icons/raw/master/png/grafana.png"
         tag: "monitoring"
         url: "https://grafana.us.prod.bluescape.io/login"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Metabase"
+        type: Ping
+        logo: "https://camo.githubusercontent.com/e73d917ab8c6336477bef948e139402d77c74063dd854ee10324d4f40f72c8c9/68747470733a2f2f7777772e6d657461626173652e636f6d2f696d616765732f6c6f676f2e737667"
+        tag: "monitoring"
+        url: "https://metabase.apps.us.bluescape.com/"
         target: "_blank" # optional html a tag target attribute
       - name: "Prometheus"
         type: Ping
